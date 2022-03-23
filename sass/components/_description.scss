@@ -1,0 +1,35 @@
+.description {
+& img{
+    display:block;
+    margin: 7rem auto;
+    max-width: 50%;
+}
+& h2 {
+
+    color: $color-dark-green;
+    font-size: 3rem;
+    font-family: "Segoe Print";
+    text-align: center;
+    line-height: 5rem;
+}
+
+& p {
+    font-size: 3rem;
+    font-family: "Segoe Print";
+    text-align: center;
+}
+ & .flag-blue 
+{
+    width: 100%;
+    background-color: $color-blue;
+}
+
+& .flag-yellow 
+{
+    width: 100%;
+    background-color: $color-yellow;
+}
+
+
+}
+
