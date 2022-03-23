@@ -25,6 +25,7 @@ header {
     color: #5d786c; }
 
 .hero {
+  overflow: hidden;
   position: relative;
   background-color: #e7f8ff; }
   .hero h1 {
@@ -192,4 +193,92 @@ header {
   font-size: 3rem;
   font-family: "Segoe Print";
   text-align: center;
-  line-height: 5rem; }
+  line-height: 10rem; }
+
+.description p {
+  color: #5d786c;
+  font-size: 3rem;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center; }
+
+.description .flag-blue {
+  width: 100%;
+  padding: 5rem;
+  background-color: #e7f8ff;
+  font-size: 0rem; }
+
+.description .flag-yellow {
+  padding: 5rem;
+  width: 100%;
+  background-color: #fcfcc8;
+  font-size: 0rem; }
+
+.description .flag {
+  display: flex;
+  flex-direction: column; }
+
+.skills {
+  padding-bottom: 10rem; }
+  .skills h2 {
+    color: #5d786c;
+    font-size: 3rem;
+    font-family: "Segoe Print";
+    text-align: center;
+    line-height: 10rem; }
+  .skills p {
+    color: #5d786c;
+    font-size: 3rem;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center; }
+  .skills h3 {
+    color: #5d786c;
+    font-size: 2rem;
+    font-family: "Segoe UI";
+    text-align: center;
+    line-height: 10rem;
+    font-weight: 600; }
+
+.projects {
+  background-color: #e7f8ff; }
+  .projects h2 {
+    color: #5d786c;
+    font-size: 3rem;
+    font-family: "Segoe Print";
+    text-align: center;
+    line-height: 10rem; }
+  .projects p {
+    color: #5d786c;
+    font-size: 3rem;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center; }
+  .projects h3 {
+    color: #5d786c;
+    font-family: "Segoe UI";
+    text-align: center;
+    line-height: 10rem;
+    font-weight: 600; }
+    .projects h3 a {
+      font-size: 2.8rem;
+      color: #7c736a;
+      text-decoration: none; }
+      .projects h3 a:hover {
+        color: #ade0ca; }
+  .projects .project {
+    margin: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem; }

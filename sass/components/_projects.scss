@@ -1,0 +1,50 @@
+.projects {
+    background-color: $color-sky;
+    & h2 {
+
+        color: $color-dark-green;
+        font-size: 3rem;
+        font-family: "Segoe Print";
+        text-align: center;
+        line-height: 10rem;
+    }
+    
+    & p {
+        color: $color-dark-green;
+    
+        font-size: 3rem;
+        font-family: "Segoe UI";
+        font-weight: 300;
+        display:block;
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    
+    
+    }
+
+    & h3 {
+        color: $color-dark-green;
+        
+        font-family: "Segoe UI";
+        text-align: center;
+        line-height: 10rem;
+        font-weight: 600;
+        & a {
+            font-size: 2.8rem;
+            color:$color-brown;
+            text-decoration: none;
+            &:hover {
+                color: $color-green;
+            }
+        }
+    }
+    & .project {
+        margin: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+}

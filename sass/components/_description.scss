@@ -10,24 +10,41 @@
     font-size: 3rem;
     font-family: "Segoe Print";
     text-align: center;
-    line-height: 5rem;
+    line-height: 10rem;
 }
 
 & p {
+    color: $color-dark-green;
+
     font-size: 3rem;
-    font-family: "Segoe Print";
+    font-family: "Segoe UI";
+    font-weight: 300;
+    display:block;
+    max-width: 70%;
+    margin: 0 auto;
     text-align: center;
+
+
 }
  & .flag-blue 
 {
+   
     width: 100%;
-    background-color: $color-blue;
+    padding: 5rem ;
+    background-color: $color-sky;
+    font-size: 0rem;
 }
 
 & .flag-yellow 
 {
+    padding: 5rem ;
     width: 100%;
     background-color: $color-yellow;
+    font-size: 0rem;
+}
+& .flag {
+    display: flex;
+    flex-direction: column;
 }
 
 
