@@ -7,14 +7,15 @@
 
     <link rel="stylesheet" href="fonts/stylesheet.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/avatar-small.png">
     <title>Elena Grasovskaya - a web developer</title>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li>projects</li>
-          <li>contacts</li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#projects">contacts</a></li>
         </ul>
       </nav>
     </header>
@@ -60,27 +61,34 @@
       </div>
     </section>
     <section class="skills">
-      <img src="images/brush.png" />
-      <h2>What do I do</h2>
-      <img src="images/pencil.png" />
+      <div class="heading">
+        <img src="images/brush&pencil.png" />
+        <h2>What do I do</h2>
+      </div>
 
       <p>I design and build web pages and apps</p>
-
-      <h2>Technologies I use</h2>
+      <div class="heading">
+        <img src="images/gears.png" />
+        <h2>Technologies I use</h2>
+      </div>
       <p>HTML CSS SASS JavaScript React Redux GraphQL Styled Components</p>
     </section>
     <section class="projects">
-      <h2>My projects</h2>
+      <div class="heading" id ="projects">
+        <img src="images/projects.png" />
+        <h2>My projects</h2>
+      </div>
+
       <h3><a href="https://libramebel.od.ua/">libramebel.od.ua</a></h3>
       <p>A gallery webpage for a furniture company built with HTML CSS ad JS</p>
       <div class="project">
-        <video controls height="400">
+        <video controls width="400">
           <source src="video/LibraMebel.mp4" type="video/mp4" />
 
           Sorry, your browser doesn't support embedded videos.
         </video>
 
-        <video controls height="400">
+        <video controls height="300">
           <source src="video/LibraMebelSmall.mp4" type="video/mp4" />
 
           Sorry, your browser doesn't support embedded videos.
@@ -92,14 +100,14 @@
         according to BEM methodology
       </p>
 
-      <div class="project">
-        <video controls height="400">
+      <div class="project" >
+        <video controls width="400">
           <source src="video/Fit_Tour.mp4" type="video/mp4" />
 
           Sorry, your browser doesn't support embedded videos.
         </video>
 
-        <video controls height="400">
+        <video controls height="300">
           <source src="video/FitTourSmall.mp4" type="video/mp4" />
 
           Sorry, your browser doesn't support embedded videos.
@@ -112,17 +120,22 @@
       </p>
 
       <div class="project">
-        <video controls height="400">
+        <video controls width="400">
           <source src="video/Lesport.mp4" type="video/mp4" />
 
           Sorry, your browser doesn't support embedded videos.
         </video>
 
-        <video controls height="400">
+        <video controls height="300">
           <source src="video/LesportSmall.mp4" type="video/mp4" />
 
           Sorry, your browser doesn't support embedded videos.
         </video>
+      </div>
+    </section>
+    <section>
+      <div class="heading">
+        <h2>Contacts</h2>
       </div>
     </section>
   </body>

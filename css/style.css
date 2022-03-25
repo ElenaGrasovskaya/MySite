@@ -15,7 +15,7 @@ header {
   header ul {
     position: absolute;
     top: 2rem;
-    right: 5rem; }
+    right: 5%; }
   header li {
     font-family: "Segoe UI", Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -23,6 +23,16 @@ header {
     display: inline-block;
     margin-right: 2rem;
     color: #5d786c; }
+    header li a {
+      color: #5d786c;
+      text-decoration: none;
+      text-shadow: none;
+      transition: text-shadow, 1s, ease; }
+      header li a:hover {
+        color: #444;
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+      header li a:active {
+        color: #ade0ca; }
 
 .hero {
   overflow: hidden;
@@ -139,7 +149,7 @@ header {
   position: absolute;
   width: 5rem;
   top: 5rem;
-  left: 5rem; }
+  left: -10rem; }
 
 .animated-wing-left {
   position: absolute;
@@ -221,64 +231,96 @@ header {
   display: flex;
   flex-direction: column; }
 
-.skills {
-  padding-bottom: 10rem; }
-  .skills h2 {
-    color: #5d786c;
-    font-size: 3rem;
-    font-family: "Segoe Print";
-    text-align: center;
-    line-height: 10rem; }
-  .skills p {
-    color: #5d786c;
-    font-size: 3rem;
-    font-family: "Segoe UI";
-    font-weight: 300;
-    display: block;
-    max-width: 70%;
-    margin: 0 auto;
-    text-align: center; }
-  .skills h3 {
-    color: #5d786c;
-    font-size: 2rem;
-    font-family: "Segoe UI";
-    text-align: center;
-    line-height: 10rem;
-    font-weight: 600; }
+.skills h2 {
+  color: #5d786c;
+  font-size: 3rem;
+  font-family: "Segoe Print";
+  text-align: center;
+  line-height: 10rem; }
 
-.projects {
-  background-color: #e7f8ff; }
-  .projects h2 {
+.skills p {
+  color: #5d786c;
+  font-size: 2.5rem;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center; }
+
+.skills h3 {
+  color: #5d786c;
+  font-size: 2rem;
+  font-family: "Segoe UI";
+  text-align: center;
+  line-height: 10rem;
+  font-weight: 600; }
+
+.skills img {
+  height: 7rem;
+  width: auto;
+  margin: 0 auto; }
+
+.projects h2 {
+  color: #5d786c;
+  font-size: 3rem;
+  font-family: "Segoe Print";
+  text-align: center;
+  line-height: 10rem; }
+
+.projects p {
+  color: #5d786c;
+  font-size: 2.5rem;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center; }
+
+.projects h3 {
+  color: #5d786c;
+  font-family: "Segoe UI";
+  text-align: center;
+  line-height: 10rem;
+  font-weight: 600; }
+  .projects h3 a {
+    font-size: 2.8rem;
+    color: #7c736a;
+    text-decoration: none; }
+    .projects h3 a:hover {
+      color: #ade0ca; }
+
+.projects .project {
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem; }
+
+.projects .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 5rem 0 0 0; }
+  .projects .heading img {
+    height: 10rem;
+    width: auto;
+    margin: 0 auto; }
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 5rem 0 0 0; }
+  .heading h2 {
     color: #5d786c;
     font-size: 3rem;
     font-family: "Segoe Print";
     text-align: center;
     line-height: 10rem; }
-  .projects p {
-    color: #5d786c;
-    font-size: 3rem;
-    font-family: "Segoe UI";
-    font-weight: 300;
-    display: block;
-    max-width: 70%;
-    margin: 0 auto;
-    text-align: center; }
-  .projects h3 {
-    color: #5d786c;
-    font-family: "Segoe UI";
-    text-align: center;
-    line-height: 10rem;
-    font-weight: 600; }
-    .projects h3 a {
-      font-size: 2.8rem;
-      color: #7c736a;
-      text-decoration: none; }
-      .projects h3 a:hover {
-        color: #ade0ca; }
-  .projects .project {
-    margin: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 5rem; }
