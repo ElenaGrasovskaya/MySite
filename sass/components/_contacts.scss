@@ -1,0 +1,22 @@
+.contacts_table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:30%;
+    margin: 0 auto;
+    i {
+        height:3rem;
+        color: $color-green;
+    }
+    p {
+        font-size: 1.5rem;
+        font-family: "Segoe UI";
+    }
+    a{
+        text-decoration: none;
+        color: $color-brown;
+        & :hover {
+            color: $color-green;
+        }
+    }
+
+}
