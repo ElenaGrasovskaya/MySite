@@ -1,21 +1,36 @@
+#contacts {
+    margin-bottom: 3rem;
+
+}
+
 .contacts_table {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width:30%;
+    grid-template-columns: 1fr 7rem 1fr;
+    width: 90%;
     margin: 0 auto;
+   
     i {
-        height:3rem;
+        margin: 1rem;
+        font-size: 2rem;
         color: $color-green;
+        text-align: right;
+
     }
     p {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         font-family: "Segoe UI";
+        text-align: right;
+        margin: 1rem;
     }
     a{
         text-decoration: none;
         color: $color-brown;
-        & :hover {
+        font-size: 1.8rem;
+        font-family: "Segoe UI";
+        margin: 1rem;
+        &:hover {
             color: $color-green;
+            text-decoration: underline;
         }
     }
 
